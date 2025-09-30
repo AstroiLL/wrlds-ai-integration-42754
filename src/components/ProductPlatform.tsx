@@ -14,7 +14,7 @@ const ProductPlatform = () => {
       >
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Smart Product Platform</h2>
         <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-4xl">
-          7+ years invested in our comprehensive IoT development platform. We enable brands to own their complete product experience while WRLDS handles the technical complexity of hardware, software, and production at scale.
+          7+ years invested in our comprehensive IoT development platform. We enable brands to own their complete product experience while AstroiLL handles the technical complexity of hardware, software, and production at scale.
         </p>
       </motion.div>
 
@@ -68,7 +68,7 @@ const ProductPlatform = () => {
           <ArrowRight className="text-black w-6 h-6 rotate-90" />
         </div>
 
-        {/* WRLDS Platform Column */}
+        {/* AstroiLL Platform Column */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -77,7 +77,7 @@ const ProductPlatform = () => {
         >
           <div className="bg-gray-200 rounded-xl p-4 sm:p-6">
             <div className="flex flex-col items-center mb-3 sm:mb-4">
-              <h3 className="text-xl sm:text-2xl font-bold text-center mb-0">wrlds</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-center mb-0">astroill</h3>
               <p className="text-lg sm:text-xl font-medium text-center">Platform</p>
             </div>
             

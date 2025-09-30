@@ -34,11 +34,11 @@ export interface ContentSection {
 export const blogPosts: BlogPost[] = [
   {
     id: '7',
-    title: 'From Concept to Market: How WRLDS Accelerates Connected Product Development',
+    title: 'From Concept to Market: How AstroiLL Accelerates Connected Product Development',
     slug: 'concept-to-market-connected-product-development',
     excerpt: 'Discover how our end-to-end development approach transforms ambitious product visions into market-ready solutions faster than traditional methods.',
     date: 'July 15, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AstroiLL Technologies',
     category: 'Product Development',
     imageUrl: '/lovable-uploads/idea_to_launch_blog_post_pic',
     keywords: [
@@ -53,11 +53,11 @@ export const blogPosts: BlogPost[] = [
       'product development acceleration',
       'IoT consulting'
     ],
-    metaDescription: 'Learn how WRLDS transforms product concepts into market-ready connected solutions with our proven end-to-end development methodology.',
+    metaDescription: 'Learn how AstroiLL transforms product concepts into market-ready connected solutions with our proven end-to-end development methodology.',
     content: [
       {
         type: 'paragraph',
-        content: 'In today\'s competitive marketplace, the ability to quickly transform innovative ideas into market-ready connected products can determine business success. At WRLDS, we\'ve refined our development approach over 7+ years to eliminate common bottlenecks and accelerate time-to-market for ambitious product visions.'
+        content: 'In today\'s competitive marketplace, the ability to quickly transform innovative ideas into market-ready connected products can determine business success. At AstroiLL, we\'ve refined our development approach over 7+ years to eliminate common bottlenecks and accelerate time-to-market for ambitious product visions.'
       },
       {
         type: 'heading',
@@ -148,7 +148,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'wearable-safety-tech-protecting-workers-roi',
     excerpt: 'Discover how wearable safety technology puts worker wellbeing first while delivering measurable business benefits through injury prevention and enhanced workplace safety.',
     date: 'June 12, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AstroiLL Technologies',
     category: 'Business',
     imageUrl: '/lovable-uploads/078a129e-0f98-4d91-af61-873687db1a04.png',
     keywords: [
@@ -268,11 +268,11 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: '8',
-    title: 'The Modular Advantage: How WRLDS Achieves Fastest Time-to-Prototype',
+    title: 'The Modular Advantage: How AstroiLL Achieves Fastest Time-to-Prototype',
     slug: 'modular-advantage-fastest-time-to-prototype',
     excerpt: 'Learn how our proprietary modular technology approach enables the fastest prototyping in the industry while maintaining quality and reliability.',
     date: 'June 28, 2025',
-    author: 'WRLDS Technologies',
+    author: 'AstroiLL Technologies',
     category: 'Technology',
     imageUrl: '/lovable-uploads/6b0637e9-4a7b-40d0-b219-c8b7f879f93e.png',
     keywords: [
@@ -287,11 +287,11 @@ export const blogPosts: BlogPost[] = [
       'development efficiency',
       'product development speed'
     ],
-    metaDescription: 'Discover how WRLDS\' modular technology approach achieves industry-leading prototyping speed while ensuring quality and scalability.',
+    metaDescription: 'Discover how AstroiLL\' modular technology approach achieves industry-leading prototyping speed while ensuring quality and scalability.',
     content: [
       {
         type: 'paragraph',
-        content: 'In connected product development, speed often determines market success. Traditional approaches require building everything from scratch, leading to extended development cycles and increased risk. WRLDS has pioneered a modular technology approach that achieves the fastest time-to-prototype in the industry while maintaining the quality and reliability needed for commercial success.'
+        content: 'In connected product development, speed often determines market success. Traditional approaches require building everything from scratch, leading to extended development cycles and increased risk. AstroiLL has pioneered a modular technology approach that achieves the fastest time-to-prototype in the industry while maintaining the quality and reliability needed for commercial success.'
       },
       {
         type: 'heading',
@@ -303,7 +303,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'heading',
-        content: 'WRLDS Modular Methodology'
+        content: 'AstroiLL Modular Methodology'
       },
       {
         type: 'subheading',

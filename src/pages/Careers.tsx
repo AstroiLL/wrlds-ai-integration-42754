@@ -55,7 +55,7 @@ const Careers = () => {
                   transition={{ duration: 0.6 }}
                   className="mb-16"
                 >
-                  <h2 className="text-3xl font-bold mb-6">Why Join WRLDS?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Why Join AstroiLL?</h2>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                     {[
                       {
@@ -90,9 +90,9 @@ const Careers = () => {
                         <h3 className="text-xl font-bold text-gray-900">Love Anderberg</h3>
                         <p className="text-gray-600 mb-4">COO</p>
                         <div className="flex flex-col space-y-3">
-                          <a href="mailto:love@wrlds.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                          <a href="mailto:love@astroill.com" className="flex items-center text-gray-700 hover:text-blue-600">
                             <Mail className="w-5 h-5 mr-2" />
-                            love@wrlds.com
+                            love@astroill.com
                           </a>
                           <a 
                             href="https://www.linkedin.com/in/love-anderberg-67549a174/" 

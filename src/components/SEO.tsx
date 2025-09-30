@@ -30,8 +30,8 @@ const SEO: React.FC<SEOProps> = ({
   isBlogPost = false
 }) => {
   const location = useLocation();
-  const currentUrl = `https://wrlds.com${location.pathname}`;
-  const absoluteImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://wrlds.com${imageUrl}`;
+  const currentUrl = `https://astroill.info${location.pathname}`;
+  const absoluteImageUrl = imageUrl.startsWith('http') ? imageUrl : `https://astroill.info${imageUrl}`;
 
   // Enhanced keywords for specific posts
   const enhancedKeywords = location.pathname.includes('smart-ppe-revolution') 
@@ -72,17 +72,17 @@ const SEO: React.FC<SEOProps> = ({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'AstroiLL',
-    url: 'https://wrlds.com',
-    logo: 'https://wrlds.com/lovable-uploads/14ea3fe0-19d6-425c-b95b-4117bc41f3ca.png',
+    url: 'https://astroill.info',
+    logo: 'https://astroill.info/lovable-uploads/14ea3fe0-19d6-425c-b95b-4117bc41f3ca.png',
     description: 'Pioneering smart engineering solutions with textile sensors',
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@wrlds.com'
+      email: 'info@astroill.com'
     },
     sameAs: [
-      'https://www.linkedin.com/company/wrlds-technologies',
-      'https://twitter.com/wrldstechnologies'
+      'https://www.linkedin.com/company/astroill-technologies',
+      'https://twitter.com/astroilltechnologies'
     ]
   };
 
@@ -106,18 +106,18 @@ const SEO: React.FC<SEOProps> = ({
     author: {
       '@type': 'Organization',
       name: author || 'AstroiLL',
-      url: 'https://wrlds.com'
+      url: 'https://astroill.info'
     },
     publisher: {
       '@type': 'Organization',
       name: 'AstroiLL',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://wrlds.com/lovable-uploads/14ea3fe0-19d6-425c-b95b-4117bc41f3ca.png',
+        url: 'https://astroill.info/lovable-uploads/14ea3fe0-19d6-425c-b95b-4117bc41f3ca.png',
         width: 512,
         height: 512
       },
-      url: 'https://wrlds.com'
+      url: 'https://astroill.info'
     },
     description: description,
     keywords: enhancedKeywords.join(', '),
@@ -216,7 +216,7 @@ const SEO: React.FC<SEOProps> = ({
       {isBlogPost && category && <meta property="article:section" content={category} />}
       {isBlogPost && publishDate && <meta property="article:published_time" content={publishDate} />}
       {isBlogPost && modifiedDate && <meta property="article:modified_time" content={modifiedDate} />}
-      {isBlogPost && <meta property="article:publisher" content="https://wrlds.com" />}
+      {isBlogPost && <meta property="article:publisher" content="https://astroill.info" />}
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -224,8 +224,8 @@ const SEO: React.FC<SEOProps> = ({
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={absoluteImageUrl} />
-      <meta name="twitter:site" content="@wrldstechnologies" />
-      <meta name="twitter:creator" content="@wrldstechnologies" />
+      <meta name="twitter:site" content="@astroilltechnologies" />
+      <meta name="twitter:creator" content="@astroilltechnologies" />
       
       {/* LinkedIn specific */}
       <meta property="og:image:secure_url" content={absoluteImageUrl} />

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://wrlds.com/sitemap.xml
+Sitemap: https://astroill.info/sitemap.xml
 
 # Optimize crawling
 Crawl-delay: 10

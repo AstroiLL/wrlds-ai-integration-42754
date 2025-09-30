@@ -36,7 +36,7 @@ const PetProject = () => {
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies developed a specialized smart collar system that incorporates:
+        AstroiLL Technologies developed a specialized smart collar system that incorporates:
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 my-8">

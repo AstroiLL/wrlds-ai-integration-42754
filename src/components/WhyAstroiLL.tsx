@@ -51,7 +51,7 @@ const AnimatedCounter = ({
     </span>;
 };
 
-const WhyWrlds = () => {
+const WhyAstroiLL = () => {
   const isMobile = useIsMobile();
   const containerVariants = {
     hidden: {
@@ -79,14 +79,14 @@ const WhyWrlds = () => {
       }
     }
   };
-  return <section id="why-wrlds" className="relative py-16 md:py-24 bg-white overflow-hidden">
+  return <section id="why-astroill" className="relative py-16 md:py-24 bg-white overflow-hidden">
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div className="text-center mb-12 md:mb-16" initial="hidden" whileInView="visible" viewport={{
         once: true,
         margin: "-100px"
       }} variants={containerVariants}>
           <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
-            Why WRLDS?
+            Why AstroiLL?
           </motion.h2>
           <motion.p variants={itemVariants} className="text-gray-600 text-lg max-w-3xl mx-auto">
             In an industry where complexity leads to failure, we bring simplicity and expertise to ensure your success
@@ -138,7 +138,7 @@ const WhyWrlds = () => {
         }} variants={containerVariants}>
           <motion.div variants={itemVariants} className="text-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-              What WRLDS Does for You
+              What AstroiLL Does for You
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               We transform your ideas into market-ready solutions with tangible benefits for your business
@@ -210,4 +210,5 @@ const WhyWrlds = () => {
     </section>;
 };
 
-export default WhyWrlds;
+export default WhyAstroiLL;
+

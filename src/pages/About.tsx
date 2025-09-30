@@ -29,7 +29,7 @@ const About = () => {
               transition={{ duration: 0.5 }} 
               className="text-4xl font-bold mb-6"
             >
-              About WRLDS Technologies
+              About AstroiLL Technologies
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -51,7 +51,7 @@ const About = () => {
                 >
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
-                    At WRLDS Technologies, we transform connected product ideas into market-ready solutions by 
+                    At AstroiLL Technologies, we transform connected product ideas into market-ready solutions by 
                     combining hardware engineering, software & AI development, and production expertise under one roof.
                   </p>
                   <p className="text-gray-600">
@@ -127,7 +127,7 @@ const About = () => {
                     {
                       name: "Felix von Heland",
                       role: "CEO and Founder",
-                      bio: "Leading WRLDS with a vision to democratize IoT product development across industries.",
+                      bio: "Leading AstroiLL with a vision to democratize IoT product development across industries.",
                       image: "/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"
                     },
                     {

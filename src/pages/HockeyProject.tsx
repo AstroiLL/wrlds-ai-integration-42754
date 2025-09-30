@@ -17,7 +17,7 @@ const HockeyProject = () => {
         <p>
           Mars Blades, a leading innovator in hockey training equipment, sought to develop a system for 
           quantifying and analyzing the specific movements that contribute to elite hockey performance. They approached 
-          WRLDS Technologies to create a solution that could capture detailed metrics during real skating sessions and 
+          AstroiLL Technologies to create a solution that could capture detailed metrics during real skating sessions and 
           translate that data into actionable insights for player development.
         </p>
       </div>
@@ -32,7 +32,7 @@ const HockeyProject = () => {
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies developed a specialized single-point IMU (Inertial Measurement Unit) system embedded directly 
+        AstroiLL Technologies developed a specialized single-point IMU (Inertial Measurement Unit) system embedded directly 
         in hockey footwear that could:
       </p>
       

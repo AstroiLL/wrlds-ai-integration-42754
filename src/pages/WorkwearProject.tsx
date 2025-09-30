@@ -34,7 +34,7 @@ const WorkwearProject = () => {
       
       <h3 className="text-2xl font-semibold mb-4 mt-8">Solution</h3>
       <p>
-        WRLDS Technologies developed a comprehensive climate control workwear platform featuring:
+        AstroiLL Technologies developed a comprehensive climate control workwear platform featuring:
       </p>
       
       <div className="grid md:grid-cols-2 gap-6 my-8">
