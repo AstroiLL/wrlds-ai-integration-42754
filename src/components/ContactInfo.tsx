@@ -19,23 +19,23 @@ const ContactInfo = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Felix's Contact Info */}
+          {/* iLya's Contact Info */}
           <div className="bg-white rounded-xl shadow-xl p-6 md:p-8 border border-gray-700">
             <div className="flex flex-col items-center text-center">
               <img 
                 src="/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"
-                alt="Felix von Heland"
+                alt="iLya Byven"
                 className="w-32 h-32 rounded-full mb-4 object-cover filter grayscale"
               />
-              <h3 className="text-xl font-bold text-gray-900">Felix von Heland</h3>
+              <h3 className="text-xl font-bold text-gray-900">iLya Byven</h3>
               <p className="text-gray-600 mb-4">CEO and Founder</p>
               <div className="flex flex-col space-y-3">
-                <a href="mailto:felix@astroill.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="mailto:astroill@gmail.com" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Mail className="w-5 h-5 mr-2" />
-                  felix@astroill.com
+                  astroill@gmail.com
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/felixvonheland/" 
+                  href="https://www.linkedin.com/in/astroill/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-700 hover:text-blue-600"
@@ -58,12 +58,12 @@ const ContactInfo = () => {
               <h3 className="text-xl font-bold text-gray-900">Love Anderberg</h3>
               <p className="text-gray-600 mb-4">COO</p>
               <div className="flex flex-col space-y-3">
-                <a href="mailto:love@astroill.com" className="flex items-center text-gray-700 hover:text-blue-600">
+                <a href="mailto:astroill@gmail.com" className="flex items-center text-gray-700 hover:text-blue-600">
                   <Mail className="w-5 h-5 mr-2" />
-                  love@astroill.com
+                  astroill@gmail.com
                 </a>
                 <a 
-                  href="https://www.linkedin.com/in/love-anderberg-67549a174/" 
+                  href="https://www.linkedin.com/in/astroill/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-gray-700 hover:text-blue-600"
