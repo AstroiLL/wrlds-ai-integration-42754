@@ -21,8 +21,8 @@ const Index = () => {
   return (
     <PageLayout>
       <SEO 
-        title="WRLDS - End-to-End Smart Product Development Partner" 
-        description="WRLDS Technologies: 7+ years transforming product visions into market-ready connected solutions. Hardware, software, and manufacturing expertise."
+        title="AstroiLL - End-to-End Smart Product Development Partner" 
+        description="AstroiLL: 7+ years transforming product visions into market-ready connected solutions. Hardware, software, and manufacturing expertise."
         imageUrl="/lovable-uploads/526dc38a-25fa-40d4-b520-425b23ae0464.png"
         keywords={['IoT development', 'connected product development', 'hardware software integration', 'smart product partner', 'end-to-end IoT solutions', 'rapid prototyping', 'product development']}
       />
