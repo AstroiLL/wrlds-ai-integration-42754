@@ -7,3 +7,24 @@ services:
     ports:
       - "8080:80"
     restart: unless-stopped
+
+  web-dev:
+    image: node:20-alpine
+    profiles: ["dev"]
+    working_dir: /app
+    environment:
+      # Для корректной работы HMR в Docker
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    volumes:
+      - .:/app
+      # изолируем node_modules внутри контейнера
+      - web_dev_node_modules:/app/node_modules
+    command: sh -c "npm ci && npm run dev -- --host 0.0.0.0 --port 5173"
+    ports:
+      - "5173:5173"
+    # перезапуск если упал
+    restart: unless-stopped
+
+volumes:
+  web_dev_node_modules:
